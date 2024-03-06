@@ -16,6 +16,7 @@
     "node": ">=18 <19"
   },
   "dependencies": {
+    "cloudinary": "^2.0.3",
     "express-async-handler": "^1.2.0"
   }
 }

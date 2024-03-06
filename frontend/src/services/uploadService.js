@@ -13,7 +13,7 @@ export const uploadImage = async event => {
     onUploadProgress: ({ progress }) => {
       if (toastId) toast.update(toastId, { progress });
       else toastId = toast.success('Uploading...', { progress });
-    },
+     },
   });
   toast.dismiss(toastId);
   return response.data.imageUrl;
